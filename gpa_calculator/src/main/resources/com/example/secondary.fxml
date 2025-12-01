@@ -61,7 +61,6 @@
    <center>
       <VBox spacing="8" BorderPane.alignment="CENTER">
          <children>
-            <!-- Course list is kept internal; we don't display taken courses per request -->
             <VBox spacing="6.0">
                <children>
                   <Label fx:id="enteredCreditsLabel" text="Earned Credits: 0.00" />
@@ -78,6 +77,7 @@
       <HBox spacing="12" alignment="CENTER_RIGHT" BorderPane.alignment="CENTER">
          <children>
             <Button text="Back to Home" onAction="#switchToPrimary" />
+            <Button text="Export JSON" onAction="#exportJson" />
             <Button fx:id="calculateButton" text="Calculate GPA" onAction="#onCalculatePressed" disable="true" />
          </children>
          <padding>
