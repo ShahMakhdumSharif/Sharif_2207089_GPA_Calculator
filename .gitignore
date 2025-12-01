@@ -1,0 +1,15 @@
+# Ignore build artifacts and OS/editor files
+/gpa_calculator/target/
+/gpa_calculator/target/**
+*.log
+*.nohup.out
+.DS_Store
+.vscode/
+hello.class
+
+# Maven local/IDE
+/mvnw*
+/.idea/
+*.iml
+/.classpath
+/.project
